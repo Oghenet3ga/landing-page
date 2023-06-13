@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jollof Rice</title>
+  </head>
+  <style>
+    body {
+      background: linear-gradient(to top, #333333 8%, #fdcbf1 1%, #e6dee9 100%);
+    }
+    .main {
+      padding: 30px 100px;
+    }
+    img {
+      float: right;
+      width: 450px;
+      height: 500px;
+      margin-left: 10px;
+      border-radius: 30px;
+    }
+    h1 {
+      font-size: 35px;
+      text-align: center;
+      font-weight: lighter;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 20px;
+    }
+
+    h2 {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+      font-size: 30px;
+    }
+    .para {
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      font-size: 20px;
+    }
+
+    button {
+      display: block;
+      margin: 0 250px;
+      border: 1px solid;
+      background: black;
+      color: #a696c8;
+      font-size: 20px;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
+      line-height: 22px;
+      padding: 20px 20px;
+      border-radius: 10px;
+      transition: all 200ms ease;
+      box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #333333;
+      color: #a696c8;
+      border: 1px solid;
+    }
+    .footer {
+      text-align: center;
+      font-family: monospace;
+      color: grey;
+      font-size: 17px;
+      line-height: 30px;
+    }
+  </style>
+  <body>
+    <h1>ALL THAT'S <strong>JOLLOF</strong>...</h1>
+    <hr />
+    <div class="main">
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/069/831/original/Jollof-Rice-17-500x500.jpg?1677854905"
+        alt="Bowl of Jollof rice with chicken"
+      />
+      <h2>Nigerian Jollof Rice</h2>
+      <p class="para">
+        <em>What is Jollof rice?</em> For those of you who aren’t familiar with
+        Jollof Rice, it is an incredibly rich, aromatic, tasty West African
+        one-pot meal. It’s similar to Jambalaya but with distinctive African
+        spices. This recipe for jollof rice can be customized in many ways to
+        suit your tastes and preferences, you could add any of your favorite
+        vegetables (diced carrots, green beans, sweet peas, or sweet corn). It
+        is best enjoyed with some fried plantains, coleslaw and any protein of
+        choice!
+      </p>
+      <p class="para">
+        I can’t think of a more popular West African dish than Jollof rice.
+        There are hundreds of different dishes in the world, but there is only a
+        handful that has enough flavor to be eaten alone. A bowl of Jollof rice
+        is one of those dishes. It is deliciously addictive. Jollof rice is a
+        staple in West African cuisine. The recipe varies from country to
+        country, region to region of the continent, but it always starts with a
+        tomato base.<span>
+          <a href="https://en.wikipedia.org/wiki/Jollof_rice" target="_blank">
+            <em> More about the geographical range of jollof rice.</em></a
+          ></span
+        >
+      </p>
+      <p class="para">
+        Jollof rice is made from rice, tomatoes, onions, peppers, and other
+        seasonings. The dish is cooked in one pot. It’s simple and easy to make
+        at home—and the end result is absolutely delicious!
+      </p>
+      <br />
+      <button>GET FULL RECIPE</button>
+    </div>
+    <p class="footer">This page was built by Tega Fregene</p>
+    <script>
+      function userInfo() {
+        let name = prompt("What is your name?");
+        let email = prompt("Please enter your email address:");
+
+        if (name.length > 0) {
+          alert(
+            `Alright ${name}, the recipe will be sent to your mail! Enjoy your Jollof😉`
+          );
+        } else {
+          alert(
+            "Alright visitor, the recipe will be sent to your mail! Enjoy your Jollof😉"
+          );
+        }
+      }
+
+      let recipe = document.querySelector("button");
+      recipe.addEventListener("click", userInfo);
+    </script>
+  </body>
+</html>
