@@ -1,1 +1,1 @@
-This is my very first hand-crafted landing page project. It was built using HTML, CSS, and JavaScript. As a beginner in coding, this project allowed me to apply my newly acquired skills and knowledge to create a basic yet functional landing page.
+This is my very first hand-crafted landing page project. It was built using HTML, CSS, and JavaScript. As a beginner in front-end coding, this project allowed me to apply my newly acquired skills and knowledge to create a basic yet functional landing page.
